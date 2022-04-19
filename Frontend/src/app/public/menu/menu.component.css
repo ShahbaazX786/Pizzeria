@@ -1,0 +1,121 @@
+.thumbnail {
+    width: 140px;
+    height: 150px;
+    border: 1px solid grey;
+}
+
+.secmain {
+  margin-left: 50px;
+  align-items: center;
+}
+.sec1 {
+  width: 450px;
+  height: 300px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+
+h2{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/*div1*/
+#name {
+  color: black;
+  text-decoration: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+#type{
+  color: black;
+  text-decoration: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+#price {
+  color: black;
+  text-decoration: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+/*div2*/
+#desc{
+  font-family: sans-serif;
+  font-size: 10px;
+  text-align: left;
+  word-wrap: break-word;
+
+}
+#ings{
+  font-family: sans-serif;
+  font-size: 10px;
+  text-align: left;
+  word-wrap: break-word;
+  justify-content: justify;
+}
+#tops{
+  font-family: sans-serif;
+  font-size: 10px;
+  text-align: center;
+  word-wrap: break-word;
+  margin-top: 10px;
+  justify-content: justify;
+}
+
+
+.one {
+  float: left;
+  width: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  overflow: none;
+  /*border: 1px solid green;*/
+}
+
+.two {
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+ /* border: 1px solid green;*/
+}
+
+.three {
+  float: left;
+  width: 100px;
+  margin-left: 5px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+/*  border: 1px solid green;*/
+}
+
+.btn{
+  height: 40px;
+  width: 100px;
+  font-family: sans-serif;
+  font-size: 12px;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.btn:hover {
+  height: 42px;
+  width: 102px;
+  background: yellow;
+  color: black;
+  font-size: 13px;
+}

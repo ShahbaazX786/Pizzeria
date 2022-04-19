@@ -1,0 +1,96 @@
+h3 {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+  color: Orange;
+}
+
+h2{
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+.table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    border-spacing:0px;
+    padding: 20px 20px 20px 20px;
+  }
+
+
+th {
+    font-size: 20px;
+    text-align: left;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 10px 10px 10px 10px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+td {
+  text-align: center;
+    font-family: sans-serif;
+    text-align: left;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+/*
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+*/
+
+.btn {
+  background-color: #000;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: bold;
+  color: #f0ad4e;
+  border: 1px solid #f0ad4e;
+}
+
+.btn:hover {
+  border: 1px solid black;
+  background: #f0ad4e;
+  color:black;
+}
+
+.btndiv {
+  text-align: center;
+
+}
+
+#cost {
+  color: blue;
+  font-size: 25px;
+  font-style: bold;
+  text-align: left;
+  margin-left: 350px;
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+
+
+.div2 {
+  width: 90%;
+  text-align: center;
+  border: 1px solid black;
+}
+
+
+.t-image {
+  height: 60px;
+  width: 80px;
+}

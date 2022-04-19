@@ -1,0 +1,19 @@
+<section class="secmain">
+  <h2>Pizza on demand</h2>
+  <section *ngFor="let i of images" class="sec1">
+    <div class="three">
+      <img src="{{i.image}}" class="thumbnail">
+      <button type="button" class="btn btn-warning" routerLink="oops" routerLinkActive="active-link"><b>Add to Cart</b></button>
+    </div>
+    <div class="two">
+      <p id="desc">{{i.description}}</p>
+      <p id="ings"><b>Ingredients: </b>{{i.ingredients}}</p>
+    </div>
+    <div class="one">
+      <p id="name"><b>{{i.name}}</b></p>
+      <p id="type">{{i.type}}</p>
+      <p id="price">₹{{i.price}} /-</p>
+      <p id="tops"><b>Toppings: </b>{{i.topping}}</p>
+  </div>
+  </section>
+</section>

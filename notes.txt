@@ -1,0 +1,13 @@
+28:24 Footer
+46:50 Homepage  
+
+
+steps for mongodb server:
+1.npx express-generator
+2.npm install
+3.npm i mongodb
+
+
+Imp Note:
+i tried so hard for mongodb connection but it didnt worked out so i just implemented express js links internally in the angular code itlself also all the servers here are either incomplete or doesnt work as they are built based on different implementations of youtubers and online source materials
+so please use ab folder for express js and mongo connection and pizzeria folder for angular running

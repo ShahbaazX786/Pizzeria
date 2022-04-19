@@ -1,0 +1,28 @@
+<section class="sec1">
+  <h3>Be a masterchef and design your own Pizza!</h3>
+  <h2>Pizzeria Now gives you options to build your own pizza by choosing from our wide range of topping and ingredient choices</h2>
+  <section class="sec2">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Ingredient</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Add/Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let i of ingredients">
+            <td><img src="{{i.image}}" class="t-image"></td>
+            <td>{{i.tname}}</td>
+            <td>{{i.price}}</td>
+            <td><input type="checkbox"/> Add</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="btndiv">
+        <p id="cost">Total cost:</p>
+        <button type="button" class="btn btn-dark" routerLink="oops" routerLinkActive="active-link">Build Your Pizza</button>
+      </div>
+    </section>
+</section>

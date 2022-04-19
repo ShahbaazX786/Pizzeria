@@ -1,0 +1,36 @@
+.footer {
+    overflow: hidden;
+    background-color: #000;
+    padding: 20px 10px;
+    top: 100%;
+    position: sticky;
+}
+
+/*h1 {
+    color: #fff;
+    font-size: 36px;
+    text-align: left;
+}*/
+h5 {
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    text-align: bottom;
+
+}
+
+a,p {
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 15px;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+i{
+    padding: 5px;
+    color: red;
+}
