@@ -1,4 +1,4 @@
-import { PizzaService } from './../../../Backup/pizzeria/src/app/pizza.service';
+import { PizzaService } from './pizza.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
