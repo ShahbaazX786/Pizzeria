@@ -12,6 +12,8 @@ import { PizzaService } from '../../pizza.service';
 
 export class BuildpizzaComponent implements OnInit {
 
+  tcost:number = 0;
+
   constructor() { }
 
   ngOnInit(): void {
